@@ -1,0 +1,9 @@
+training = ~/cn24/handsData/DATASET_TRAIN.Tensor
+testing =~/cn24/handsData/DATASET_TEST.Tensor
+
+classes=1
+hand
+
+colors
+0xFFFFFF
+
