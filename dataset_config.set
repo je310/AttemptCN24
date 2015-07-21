@@ -1,5 +1,5 @@
-training = ~/cn24/handsData/DATASET_TRAIN.Tensor
-testing =~/cn24/handsData/DATASET_TEST.Tensor
+training=/home/josh/cn24/AttemptCN24/DATASET_TRAIN.Tensor
+testing=/home/josh/cn24/AttemptCN24/DATASET_TEST.Tensor
 
 classes=1
 hand

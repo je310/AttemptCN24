@@ -1,29 +1,21 @@
 # Sample CNN for KITTI Dataset
 
-# Network configuration
-?convolutional kernels=12 size=7x7
+# Network configuration - something like the LeNet
+?convolutional kernels=20 size=5x5
 ?maxpooling size=2x2
-?relu
-
-?convolutional size=5x5 kernels=6
-?relu
-
-?convolutional size=5x5 kernels=48
-?relu
-
-?fullyconnected neurons=192
-?relu
-
+?convolutional kernels=50 size=5x5
+?maxpooling size=2x2
+?fullyconnected neurons=500
 ?fullyconnected neurons=(o)
 ?output
 
 # Learning settings
 l1=0.001
 l2=0.0005
-lr=0.0001
-gamma=0.003
-momentum=0.9
+lr=0.01
+gamma=0.001
+momentum=0.5
 exponent=0.75
-iterations=500
+iterations=50
 sbatchsize=1
 pbatchsize=1
